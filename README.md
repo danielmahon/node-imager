@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/madhums/node-imager.png)](https://travis-ci.org/madhums/node-imager)
+
 ## Imager
 
 A node module to resize, crop and upload images (with different variants and presets) to Rackspace cloudfiles and Amazon S3.
@@ -66,14 +68,14 @@ So if you have a variant, say `thumb`, then you can access the image by `cdnUri+
   Even here, if the variant is not specified, imager will try to look for the `default` variant. If neither
   of them are provided, you will get an error.
 
-## Debugging
+
 If you specify `debug: true` in the imager config, you can see the logs of uploaded / removed files.
 
-## To-do's
-* Write more tests
+## Tests
 
-
-**credits :** Initially inspired by [Alleup](https://github.com/tih-ra/alleup)
+```sh
+$ npm test
+```
 
 ## License
 (The MIT License)

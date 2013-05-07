@@ -1,4 +1,35 @@
 
+0.1.9 / 2013-04-22 
+==================
+  
+  * Set the default ACL to 'public-read' for files uploaded to Amazon
+  * add tests
+  * add travis ci
+  * refactor imager for better error handling and flexible syntax
+  * remove makefile, add mocha to npm test
+  * update node engine support - os.tmpDir works only > 0.8.x
+
+0.1.8 / 2013-04-21 
+==================
+
+  * update dependencies
+  * add missing comma - bug fix
+  * Merge pull request #23 from rubenstolk/patch-3
+  * Can't declare a variable that already exists in context
+  * Merge pull request #22 from rubenstolk/patch-2
+  * Support for both image/jpg and image/jpeg as content type
+
+0.1.7 / 2013-04-20 
+==================
+
+  * refactor. fixes #21
+  * Merge pull request #20 from frekw/master
+  * Bump knox to 0.7 to add support for regions other than US and putFile.
+  * Make sure we don't end up with double trailing slashes. We should also respect the platforms directory separator.
+  * Merge pull request #14 from danielmahon/patch-1
+  * needs to be array
+  * update readme
+
 0.1.6 / 2013-03-06 
 ==================
 
